@@ -1,0 +1,246 @@
+---
+name: Slate Precision
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#bdc2ff'
+  on-secondary: '#131e8c'
+  secondary-container: '#2f3aa3'
+  on-secondary-container: '#a8afff'
+  tertiary: '#7bd0ff'
+  on-tertiary: '#00354a'
+  tertiary-container: '#009bd1'
+  on-tertiary-container: '#002d40'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#e0e0ff'
+  secondary-fixed-dim: '#bdc2ff'
+  on-secondary-fixed: '#000767'
+  on-secondary-fixed-variant: '#2f3aa3'
+  tertiary-fixed: '#c4e7ff'
+  tertiary-fixed-dim: '#7bd0ff'
+  on-tertiary-fixed: '#001e2c'
+  on-tertiary-fixed-variant: '#004c69'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  display-lg:
+    fontFamily: Geist
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Geist
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Geist
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-lg: 1.5rem
+  margin: 1rem
+  margin-md: 1.5rem
+  margin-lg: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system embodies calm authority, analytical focus, and modern executive polish for job seekers tracking pipeline stages and rehearsing interviews. The user interface prioritizes clarity under pressure: job hunting and high-stakes interviews are inherently stressful, demanding a digital environment that projects control, quiet confidence, and tactical readiness.
+
+Drawing from sleek modern minimalism infused with tactical dashboard ergonomics, the visual identity rejects noisy decorative trends, deep saturated oceanic blues, and stark pitch-black voids. Instead, it leverages deep gunmetal slate, cool charcoal strata, and precision-tuned indigo/violet focal points. 
+
+Key attributes:
+- **Tone:** Professional, composed, razor-sharp, analytical.
+- **Atmosphere:** Deep cool workspace with selective luminous highlights.
+- **Progressive Disclosure:** Dense career telemetry (status pipelines, feedback metrics, audio wave transcripts) structured through clean layered cards and purposeful reveals, minimizing cognitive friction.
+
+## Colors
+
+The palette is rooted in cold, technical slate, moving entirely away from hyper-saturated midnight blues toward neutral gunmetal and charcoal. High-contrast typography and radiant indigo accents guide focus without triggering visual fatigue during extended prep sessions.
+
+### Core Tonal Hierarchy
+- **Canvas / Root Background:** `#090d16` to `#0f172a` (deep gunmetal slate).
+- **Surface Level 1 (Panels & Sidebar):** `#131c2e` / `#1e293b`.
+- **Surface Level 2 (Cards & Active Modules):** `#1e293b` with semi-translucent alpha layers.
+- **Surface Level 3 (Hover States & Elevated Popovers):** `#334155`.
+- **Borders & Dividers:** Subtle tier `#334155` (default), interactive tier `#475569` (hover/focus).
+
+### Typography Tones
+- **Primary Text:** `#f8fafc` (crisp, high legibility for headlines, key data, and transcripts).
+- **Secondary Text:** `#94a3b8` (supporting metadata, pipeline stage tags, timestamps).
+- **Muted / Placeholder:** `#64748b`.
+
+### Accents & Telemetry
+- **Primary Accent (`#6366f1`):** Key CTAs, primary active tab indicators, and progress tracks.
+- **Secondary Accent (`#818cf8`):** Focus rings, interactive hover states, coaching highlight callouts.
+- **Tertiary Accent (`#38bdf8`):** AI interview feedback metrics, live voice telemetry, and confidence scores.
+- **Status Accents:**
+  - *Applied / In Review:* `#818cf8` (Indigo)
+  - *Interviewing:* `#38bdf8` (Cyan)
+  - *Offer Received:* `#10b981` (Emerald)
+  - *Archived / Rejected:* `#ef4444` (Crimson)
+
+## Typography
+
+Typography establishes an engineered, high-fidelity experience. **Geist** delivers pristine geometric neutrality across executive interfaces, eliminating the generic feel of ubiquitous neo-grotesques while preserving total clarity at small body sizes. **JetBrains Mono** is introduced for stage counters, time elapsed in mock interviews, salary metadata, and telemetry labels, reinforcing the product's analytical toolset.
+
+### Typographic Principles
+- **Monospace Pairing:** Reserve JetBrains Mono exclusively for status tags, audio timestamps, quantitative analytics, and keyboard shortcuts.
+- **Negative Tracking:** Apply subtle negative tracking (`-0.01em` to `-0.03em`) on Geist headings to maintain typographic density and impact on slate backgrounds.
+- **Contrast Ratios:** Avoid pure white for running body text to prevent glare; reserve `#f8fafc` for headlines and primary data points, routing explanatory paragraphs through `#94a3b8`.
+
+## Layout & Spacing
+
+The layout operates on a modular 12-column responsive fluid grid designed to accommodate dense Kanban pipelines, mock interview video feeds, and multi-column telemetry sidebars.
+
+### Breakpoints & Adaptations
+- **Mobile (< 768px):** 4-column layout, `margin: 1rem`, `gutter: 1rem`. Kanban transforms from horizontal multi-column to a segmented swipeable stage stack or dropdown filtered view. Coaching prompts stack beneath video/audio controls.
+- **Tablet (768px - 1199px):** 8-column layout, `margin: 1.5rem`, `gutter: 1.25rem`. Two-pane view: collapsible navigation drawer with responsive split panels.
+- **Desktop (1200px+):** 12-column layout, `margin: 2.5rem`, `gutter: 1.5rem`. Fixed command sidebar (260px), multi-lane job board with drag handles, and docked interview simulator panel.
+
+### Spacing Rules
+Internal card padding aligns strictly to `space-md` (16px) for compact data cards and `space-lg` (24px) for parent workspace surfaces. Element gaps inside controls consistently use `space-xs` (4px) and `space-sm` (8px).
+
+## Elevation & Depth
+
+Rather than relying on deep drop shadowp %ÚXÚØ[ˆ™Y[]\šÞHYØZ[œÝ\šÈÛ]x %\\È\XÝ[]Y›ÝYÚ
+ŠÛ˜[^Y\š[™ÊŠ‹
+Š™š[™HZXÜ›ËX›Ü™\œÊŠ‹[™
+ŠXÝ[H˜[œÛXÙ[Ý\™˜XÙ\ÊŠ‹‚‚ˆÈÈÈ[]˜][ÛˆÝXÚÂ‹H
+Š“]™[
+Ø[˜\ÊNŠŠˆÛÛY˜XÚÙÜ›Ý[™
+ÌŒMÌ˜XÜˆÌŒLLŒ
+Kˆ™\›ÈÚYÝË™\›È›Ü™\‹‚‹H
+Š“]™[H
+ÝXÝ\˜[[Ù[\ÈÈÛÛ[[œÊNŠŠˆ˜XÚÙÜ›Ý[™ÌYLŽLØ˜]Œ	HÜXÚ]HÚ]˜XÚÙ›ÜYš[\Žˆ›\ŠLœ
+Xˆ[˜ÛÜÙYžHH\›Ü™\ˆ
+ÌÌÍMMX
+K‚‹H
+Š“]™[ˆ
+[\˜XÝ]™HØ\™ÈÈØ[˜˜[ˆ][\ÊNŠŠˆ˜XÚÙÜ›Ý[™ÌYLŽLØ˜ÛÛYÜˆ™Ø˜JÌKNKŽJXˆ›Ü™\ˆ\ÌÌÍMMXˆÝXH[XšY[›ÜÚYÝÎˆLœLœ™Ø˜JŒÍJX‚‹H
+Š“]™[È
+[Ù[ÈÈ›Ø][™ÈQÈÛØXÚ[™ÈÝ™\›^\ÊNŠŠˆ˜XÚÙÜ›Ý[™ÌYLŽLØ˜Ú]HZ\›[™HÜYÚYÚ™Ø˜JLL‹Œ
+X›Ü™\ˆ\ÍÍMMŽX[™[ˆ[™YÛË][Y[]˜][ÛˆÚYÝÎˆŒ\M\™Ø˜JJKLMœ™Ø˜JNKL‹KŒ
+X‚‚ˆÈÈÈ›ØÝ\È	ˆÝ]HYÚYÚÂ‘›ØÝ\ÈÝ]\È\ØØ\™XÚÈ˜]]™Hœ›ÝÜÙ\ˆÝ][™\È[ˆ˜]›ÜˆÙˆHX[\š[™È™X]Y[ˆH\[›™\ˆ›Ü™\ˆ[ˆÌŒMÌ˜X›ÛÝÙYžHHÜš\Üœš[™È[ˆÎNÙŽÚ][ˆXØÛÛ\[žZ[™ÈÝXHÛÝÈ
+™Ø˜JNKL‹KŒŠX
+K‚‚ˆÈÈÚ\\Â‚•H[\™˜XÙH˜[[˜Ù\ÈÚ\œ›ÙXÝ]š]HÛÛY\Ý]XÜÈÚ]Û\ÚY[X[‹XÙ[\™Y[\˜XÝ[Û‹ˆ˜Y]\ÈØØ[H˜[]™\œÈZ[Ü™YÝ\˜]\™H]™]™[ÈH]›Ü›Hœ›ÛH™Y[[™ÈYÙÜ™\ÜÚ]™[HÛ[šXØ[ÜˆÚ[\ÚHX˜›K‚‚ˆÈÈÈÛÜ›™\ˆ[\Â‹H
+Š˜\ÙHÛÛ\Û™[È
+]ÛœË[œ]ËÙ[XÝÜœÊNŠŠˆ\™[X
+
+K‚‹H
+ŠØ\™ËØ[˜˜[ˆ[\Ë]Y[ÈØ]™Y›Ü›HÛÛZ[™\œÎŠŠˆ›Ý[™Y[Ø
+\™[HÈMœ
+K‚‹H
+Š“[Ù[Ë›Ø][™ÈšY[ÈÛØXÚ\ËX\Ý\ˆ˜]Ù\œÎŠŠˆ›Ý[™Y^
+K\™[HÈ
+K‚‹H
+Š˜YÙ\ËÝYÙH[™XØ]ÜˆÚ\ËÝ]\È[ÎŠŠˆ[Ú\˜Ý[\ˆØ\Ý[H
+NNN\
+H›Üˆ]ZXÚÈ\œÚ[™ÈYØZ[œÝ™XÝ[™Ý[\ˆØ\™ÛÛ[‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žNŠŠˆ˜XÚÙÜ›Ý[™ÍŒÍ™ŒX^ÙŽ˜Y˜Ø›Û]ÙZYÚLÛÜ›™\ˆ˜Y]\ÈˆÝ™\ŽˆÍ™MXÚ]ÝXH[[Z[˜][Û‹ˆXÝ]™NˆØØ[HŽN‚‹H
+Š”ÙXÛÛ™\žHÈÚÜÝŠŠˆ˜XÚÙÜ›Ý[™™Ø˜JÌKNKŠX›Ü™\ˆ\ÌÌÍMMX^ÙŽ˜Y˜ØˆÝ™\Žˆ›Ü™\ˆÍÍMMŽX˜XÚÙÜ›Ý[™ÌÌÍMMX‚‹H
+Š‘\ÝXÝ]™NŠŠˆ˜XÚÙÜ›Ý[™™Ø˜JŒÎKŽŽŒJX›Ü™\ˆ\™Ø˜JŒÎKŽŽŒÊX^ÙYˆÝ™\Žˆ˜XÚÙÜ›Ý[™™Ø˜JŒÎKŽŽŒŠX‚‚ˆÈÈÈÚ\È	ˆÝYÙH˜YÙ\Â‹HØ\Ý[\ˆ
+NNN\
+KY[™ÈL›Û™]œ˜Z[œÈ[Û›ØLLLœ\\˜Ø\ÙK‚‹H™]]˜[ÝYÙHÚ\ˆ™Ø˜JLKKKJX˜XÚÙÜ›Ý[™ÎMLØŽ^ÌÌÍMMX›Ü™\‹‚‹HXÝ]™HRHÝ]\ÈÈÝYÙHÚ\ˆ™Ø˜JNKL‹KŒMJX˜XÚÙÜ›Ý[™ÎNÙŽ^™Ø˜JNKL‹K
+X›Ü™\‹‚‚ˆÈÈÈ[œ]šY[È	ˆÙX\˜Ú˜\œÂ‹H˜XÚÙÜ›Ý[™ÌŒMÌ˜X›Ü™\ˆ\ÌÌÍMMX^ÙŽ˜Y˜ØXÙZÛ\ˆÍÍ˜‚‹HY[™ÈLMÛÜ›™\ˆ˜Y]\Èˆ›ØÝ\Îˆ›Ü™\ˆÎNÙŽš[™È™Ø˜JNKL‹KŒJX‚‹H[YÜ˜]YÙ^X›Ø\™[˜YÙ\Îˆ™]œ˜Z[œÈ[Û›ØL[œÚYHÛX[ÌYLŽLØ˜Ù^HØ\Ý[\Ë‚‚ˆÈÈÈØ\™È	ˆØ[˜˜[ˆ[\Â‹HØ\™›ÙNˆÌYLŽLØ˜
+ÜˆIH˜[œÛXÙ[Û]HÛˆ\ÚÝÜ
+K\›Ü™\ˆÌÌÍMMXY[™ÈMœ‚‹H[\›˜[Y\˜\˜ÚNˆÛÛ\[žH˜[YH[™›ÛH[ˆÙŽ˜Y˜Ø
+XY[™K\ÛX
+K[\šY]È]H[™Ø[\žH[ˆÎMLØŽ
+›ÙK\ÛX
+KÝYÙH[[YÛ™YÜ\šYÚ‚‹HÝ™\ˆ™\ÜÛœÙNˆZXÜ›Ë]˜[œÛ]HLœÛˆKX^\Ë›Ü™\ˆÚYÈÈÍÍMMŽX‚‚ˆÈÈÈ[\šY]È[[Y]žH	ˆÛØXÚQ‹H
+Š”™X[U[YHØ]™Y›Ü›H[Ûš]ÜŽŠŠˆ\šÈÛ]H›ÝYÚ
+ÌŒMÌ˜X
+HÚ]™XXÝ]™H]Y[È[\]YH˜\œÈÛÛÜ™Y[ˆÍŒÍ™ŒX˜[œÚ][Ûš[™ÈÈÌÎ™Ž‚‹H
+Š“]™HRH[œÚYÚØ\ÝŠŠˆ˜[œÛXÙ[[™[
+™Ø˜JÌKNKŽJX
+HØÚÙY›ÝÛKXÙ[\‹YX›Ü™\ˆÜ[ˆÎNÙŽ™\Ù[[™È[œÝ[[™[Ý\ÈÛÛ™\œØ][Û˜[XÚ[™Ëš[\‹]ÛÜ™[\Ë[™ÝYÙÙ\Ý[Ûˆ›Û\Ë
